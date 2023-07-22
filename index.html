@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./benefit_favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./benefit_favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./benefit_favicon/favicon-16x16.png">
+  <link rel="manifest" href="./benefit_favicon/site.webmanifest">
+  <link rel="mask-icon" href="./benefit_favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>이경리-benefit</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/common.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" />
+  <script src="./js/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="./js/bxslider.js"></script>
+  <link rel="stylesheet" href="./css/bxslider_custom.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&display=swap" rel="stylesheet">
+  <script src="./js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      // $(".sns_photo div .heart").click(function () {
+      //   $(this).addClass("active");
+      // });
+      // $(".sns_photo div .active").click(function () {
+      //   $(this).removeClass("active")
+      // });
+      $(".sns_photo div .heart").click(function () {
+        if ($(this).hasClass('active') == true) {
+          $(this).removeClass('active')
+        } else {
+          $(this).addClass('active')
+        }
+      })
+
+      // $(window).scroll(function () {
+      //   let Crs = $(this).scrollTop()
+      //   alert()
+
+      //   $('.scroll span').text(Crs)
+      //   if (Crs > $('.sect_04').scrollTop()) {
+      //     $('.sect_04 .sns_photo').addClass('active')
+
+
+      //   }
+
+
+
+      // })
+
+
+
+      // if(조건){조건이 맞을때 실행문}else{조건이 안맞을때 실행문}
+    })
+  </script>
+</head>
+
+<body>
+  <!-- <div class="scroll">: <span>0</span></div> -->
+  <div id="wrap">
+    <header>
+      <div class="header_top">
+        <h1>
+          <a href="#"><img src="./web_img/benefit_logo.png" alt="" /></a>
+        </h1>
+        <div class="header_left">
+          <nav class="menu">
+            <ul>
+              <li>
+                <a href="#" class="tit_menu">ABOUT</a>
+                <div class="sub_menu">
+                  <a href="#">회사 소개</a>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="tit_menu">SHOP</a>
+                <div class="sub_menu">
+                  <a href="#">BEST</a>
+                  <a href="#">NEW</a>
+                  <a href="#">브로우</a>
+                  <a href="#">립</a>
+                  <a href="#">치크</a>
+                  <a href="#">아이</a>
+                  <a href="#">페이스</a>
+                  <a href="#">브러쉬</a>
+                  <a href="#">전체상품</a>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="tit_menu">BROW BAR</a>
+                <div class="sub_menu">
+                  <a href="#">브로우바 예약</a>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="tit_menu">STORE</a>
+                <div class="sub_menu">
+                  <a href="#">매장 찾기</a>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="tit_menu">COMMUNITY</a>
+                <div class="sub_menu">
+                  <a href="#">공지사항</a>
+                  <a href="#">묻고 답하기</a>
+                  <a href="#">REVIEW</a>
+                  <a href="#">EVENT</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <div class="header_icons">
+            <a href="#"><span><i class="fa-solid fa-user"></i></span></a>
+            <a href="#"><span><i class="fa-solid fa-magnifying-glass"></i></span></a>
+            <a href="#"><span><i class="fa-solid fa-bag-shopping"></i></span></a>
+          </div>
+        </div>
+        <div class="header_shop">
+          <a href="#">SHOP</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="sect_01">
+        <h1>BEST</h1>
+        <div class="slider4">
+          <div class="slide">
+            <div class="best_product">
+              <a href="#"><img src="./web_img/section01_best01.png" alt="" /></a>
+              <div>
+                <a href="#">
+                  <p>더 포어페셔널</p>
+                  <h3>라이트 프라이머 미니</h3>
+                  <hr>
+                </a>
+                <div class="price">
+                  <div>
+                    <p>22,000원</p>
+                    <h3>18,700원</h3>
+
+                  </div>
+                  <span>15%</span>
+                </div>
+                <div class="shop_sale">
+                  <a href="#">SHOP</a>
+                  <a href="#">SALE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="best_product">
+              <a href="#"><img src="./web_img/section01_best02.png" alt="" /></a>
+              <div>
+                <a href="#">
+                  <p></p>
+                  <h3>차차틴트</h3>
+                  <hr>
+                </a>
+
+                <div class="price">
+                  <div>
+                    <p>29,000원</p>
+                    <h3>24,650원</h3>
+                  </div>
+                  <span>15%</span>
+                </div>
+                <div class="shop_sale">
+                  <a href="#">SHOP</a>
+                  <a href="#">SALE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="best_product">
+              <a href="#"><img src="./web_img/section01_best03.png" alt="" /></a>
+              <div>
+                <a href="#">
+                  <p>WANDERful World 블러쉬</p>
+                  <h3>단델리온</h3>
+                  <hr>
+                </a>
+                <div class="price">
+                  <div>
+                    <p>43,000원</p>
+                    <h3>34,400원</h3>
+                  </div>
+                  <span>20%</span>
+                </div>
+                <div class="shop_sale">
+                  <a href="#">SHOP</a>
+                  <a href="#">SALE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="best_product">
+              <a href="#"><img src="./web_img/section01_best04.png" alt="" /></a>
+              <div>
+                <a href="#">
+                  <p></p>
+                  <h3>구프 프루프 브로우 펜슬</h3>
+                  <hr>
+                </a>
+                <div class="price">
+                  <div>
+                    <p>40,000원</p>
+                    <h3>34,000원</h3>
+                  </div>
+                  <span>15%</span>
+                </div>
+                <div class="shop_sale">
+                  <a href="#">SHOP</a>
+                  <a href="#">SALE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="best_product">
+              <a href="#"><img src="./web_img/section01_best05.png" alt="" /></a>
+              <div>
+                <a href="#">
+                  <p>더 포어페셔널</p>
+                  <h3>스무스 십</h3>
+                  <hr>
+                </a>
+                <div class="price">
+                  <div>
+                    <p>60,000원</p>
+                    <h3>54,000원</h3>
+                  </div>
+                  <span>10%</span>
+                </div>
+                <div class="shop_sale">
+                  <a href="#">SHOP</a>
+                  <a href="#">SALE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="best_product">
+              <a href="#"><img src="./web_img/section01_best06.png" alt="" /></a>
+              <div>
+                <a href="#">
+                  <p></p>
+                  <h3>멀티태스킹 치크 브러쉬</h3>
+                  <hr>
+                </a>
+                <div class="price">
+                  <div>
+                    <p>49,000원</p>
+                    <h3>41,650원</h3>
+                  </div>
+                  <span>15%</span>
+                </div>
+                <div class="shop_sale">
+                  <a href="#">SHOP</a>
+                  <a href="#">SALE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sect_02">
+        <h1>NEW</h1>
+        <div class="new_product">
+          <div>
+            <img src="./web_img/section02_01.png" alt="" />
+            <div>
+              <p>Lip Butter Balms</p>
+              <h1>립 버터 밤</h1>
+              <p>
+                투명하게 반짝이는 생기 있는 입술, <br />
+                샤인 글래스 컬러 립 밤
+              </p>
+              <a href="#none">SHOP</a>
+            </div>
+          </div>
+          <div>
+            <img src="./web_img/section02_02.jpg" alt="" />
+            <div>
+              <p>Flora Tint</p>
+              <h1>플로라 틴트</h1>
+              <p>
+                자연스럽고 분위기 있는 <br />
+                로즈빛 MLBB 무드 연출
+              </p>
+              <a href="#none">SHOP</a>
+            </div>
+          </div>
+          <div>
+            <img src="./web_img/section02_04.jpg" alt="" />
+            <div>
+              <p>Deep Retreat</p>
+              <h1>딥 리트리트</h1>
+              <p>
+                모공 속 깊은 곳까지 깨끗하게! <br />
+                포어 클리어링 퍼플 클레이 마스크
+              </p>
+              <a href="#none">SHOP</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sect_03">
+        <div class="inner">
+          <div>
+            <h1>
+              WANDERful WORLD <br />
+              BLUSH COLLECTION
+            </h1>
+            <p>네이처 모티브의 12가지 컬러</p>
+            <a href="#none">SHOP</a>
+          </div>
+          <div>
+            <div class="blush_img">
+              <input type="radio" name="blush_color" id="blush_color_1" checked />
+              <input type="radio" name="blush_color" id="blush_color_2" />
+              <input type="radio" name="blush_color" id="blush_color_3" />
+              <input type="radio" name="blush_color" id="blush_color_4" />
+
+              <img src="./web_img/section3_img_slide01.jpg" alt="" />
+              <img src="./web_img/section3_img_slide04.jpg" alt="" />
+              <img src="./web_img/section3_img_slide02.jpg" alt="" />
+              <img src="./web_img/section3_img_slide03.jpg" alt="" />
+            </div>
+            <div class="blush_box">
+              <div>
+                <label for="blush_color_1"><img src="./web_img/section03_dandelion.png" alt="" />
+                  <span>dandelion</span></label>
+              </div>
+              <div>
+                <label for="blush_color_2"><img src="./web_img/section03_pompom.png" alt="" />
+                  <span>pompom</span></label>
+              </div>
+              <div>
+                <label for="blush_color_3"><img src="./web_img/section03_shelle.png" alt="" />
+                  <span>shellie</span></label>
+              </div>
+              <div>
+                <label for="blush_color_4"><img src="./web_img/section03_peachin.png" alt="" />
+                  <span>peachin'</span></label>
+              </div>
+            </div>
+            <div class="blush_span">
+              <span>benefit SHOP에서 더 다양한 컬러를 만나보세요.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sect_04">
+        <div class="sns_photo">
+          <article>
+            <div>
+              <span class="heart"><i class="fa-solid fa-heart"></i></span>
+              <span class="ellipsis"><i class="fa-solid fa-ellipsis"></i></span>
+              <b></b>
+              <img src="./web_img/sns_01.png" alt="" />
+            </div>
+            <div>
+              <span class="heart"><i class="fa-solid fa-heart"></i></span>
+              <span class="ellipsis"><i class="fa-solid fa-ellipsis"></i></span>
+              <b></b>
+              <img src="./web_img/sns_02.png" alt="" />
+            </div>
+            <div>
+              <span class="heart"><i class="fa-solid fa-heart"></i></span>
+              <span class="ellipsis"><i class="fa-solid fa-ellipsis"></i></span>
+              <b></b>
+              <img src="./web_img/sns_03.png" alt="" />
+            </div>
+          </article>
+          <article>
+            <div>
+              <span class="heart"><i class="fa-solid fa-heart"></i></span>
+              <span class="ellipsis"><i class="fa-solid fa-ellipsis"></i></span>
+              <b></b>
+              <img src="./web_img/sns_04.png" alt="" />
+            </div>
+            <div>
+              <span class="heart"><i class="fa-solid fa-heart"></i></span>
+              <span class="ellipsis"><i class="fa-solid fa-ellipsis"></i></span>
+              <b></b>
+              <img src="./web_img/sns_05.png" alt="" />
+            </div>
+            <div>
+              <span class="heart"><i class="fa-solid fa-heart"></i></span>
+              <span class="ellipsis"><i class="fa-solid fa-ellipsis"></i></span>
+              <b></b>
+              <img src="./web_img/sns_06.png" alt="" />
+            </div>
+          </article>
+        </div>
+        <div class="insta">
+          <h2>SNS</h2>
+          <h1>@benefitcosmeticskorea</h1>
+          <a href="#none">바로가기</a>
+          <p>
+            베네피트 공식 <br />
+            인스타그램을 팔로우하고 <br />
+            더 다양한 소식과 이벤트를 확인하세요.
+          </p>
+        </div>
+      </section>
+      <section class="sect_05">
+        <div class="inner">
+          <a href="#none"><img src="./web_img/browbar_logo.jpg" alt="" />
+            <h2>브로우바 예약하기</h2>
+          </a>
+          <div class="browbar_card">
+            <div>
+              <img src="./web_img/section05_img01.PNG" alt="" />
+              <h1>
+                나에게 어울리는 <br />
+                눈썹 찾기
+              </h1>
+              <p>
+                베네피트의 브로우바에서 <br />
+                나에게 가장 잘 어울리는 <br />
+                완벽한 눈썹을 만들기 위한 <br />
+                3단계 테크닉과 브로우 <br />
+                매핑을 만나보세요!
+              </p>
+            </div>
+            <div>
+              <img src="./web_img/section05_img02.PNG" alt="" />
+              <h1>
+                브로우바에서 완벽한 <br />
+                눈썹을 완성하세요!
+              </h1>
+              <p>
+                정리해야 할 잔털이 너무 많은가요? <br />
+                베네피트 시그니처인 브로우바에서<br />
+                깔끔한 눈썹 모양을 선사합니다.<br />
+              </p>
+            </div>
+            <div>
+              <img src="./web_img/section05_img03.PNG" alt="" />
+              <h1>틴트 잇 업!</h1>
+              <p>
+                '마치 메이크업을 하지 않은 듯
+                자연스러운' <br />눈썹 스타일링을
+                원하시나요? <br>
+                베네피트의 시그니처 틴트가 <br />
+                눈썹 한올 한올에 컬러를 더하여 <br />
+                최고의 눈썹을 연출할 거예요.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_all">
+        <div class="footer_left">
+          <h1><img src="./web_img/benefit_logo.png" alt="" /></h1>
+          <div class="footer_txt">
+            <div class="footer_01">
+              <div>
+                <p><b>베네피트코스메틱스코리아 유한회사</b></p>
+                <p><b>사업자등록번호</b> 2118749400</p>
+              </div>
+              <div>
+                <p><b>대표자</b> 정선민</p>
+                <p><b>통신판매업번호</b> 2019-서울종로-0680</p>
+              </div>
+            </div>
+            <div>
+              <p>
+                <b>사업장 소재지</b> 서울특별시 종로구 종로3길 17 (D타워) 10층
+                (우 : 03155)
+              </p>
+              <p><b>E-mail</b> bene_b2c@benefitcosmetics.com</p>
+            </div>
+            <div class="footer_03">
+              <a href="#none">이용약관</a>
+              <a href="#none">개인정보처리방침</a>
+            </div>
+            <div>
+              <span>&copy;2021, Benefit Cosmetics LLC</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer_right">
+          <div>
+            <h3>고객센터</h3>
+            <h4>080-001-2363</h4>
+          </div>
+          <div>
+            <h3>Order Tracking</h3>
+            <a href="#none">
+              <h4>주문내역</h4>
+            </a>
+            <a href="#none">
+              <h4>배송조회</h4>
+            </a>
+          </div>
+          <div>
+            <h3>SNS</h3>
+            <a href="#none">
+              <h4>Instagram</h4>
+            </a>
+            <a href="#none">
+              <h4>Youtube</h4>
+            </a>
+            <a href="#none">
+              <h4>Blog</h4>
+            </a>
+            <a href="#none">
+              <h4>Facebook</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer_icons">
+        <a href="#none"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#none"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#none"><i class="fa-solid fa-b"></i></a>
+      </div>
+      <div class="up_btn">
+        <a href="#"> <span>↑</span>
+          <P>TOP</P>
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
